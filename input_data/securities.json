@@ -1,0 +1,877 @@
+{
+    "securities": [
+      {
+            "asset": {
+                "isin": "AA0481362314",
+                "quantityStep": 2,
+                "issuer": {
+                    "bic": "CRESCH80AA1",
+                    "bpId": "AAAA01",
+                    "legalEntity": {
+                        "id": "f9db97b3-f1d4-4ee2-95a6-eb7add26fea8",
+                        "legalEntityId": "101",
+                        "shortName": "AAA",
+                        "fullName": "Credit Suisse (AAAA) AG"
+                    }
+                },
+                "tradable": [{
+                        "tradingCurrency": {
+                            "code": "USD",
+                            "precision": 2
+                        },
+                        "firstTradingDate": {
+                            "value": "2019-01-15T00:00:00.000Z"
+                        },
+                        "lastTradingDate": {
+                            "value": "2025-03-20T23:59:59.000Z"
+                        },
+                        "tradingSegment": {
+                            "id": "AAA",
+                            "maxOrderValue": {
+                                "value": "10000000"
+                            }
+                        },
+                        "priceStepGroup": {
+                            "code": null,
+                            "groupId": "S1",
+                            "priceStepList": [{
+                                    "priceFrom": {
+                                        "value": "0.001"
+                                    },
+                                    "priceTo": {
+                                        "value": "0.0"
+                                    },
+                                    "tickSize": {
+                                        "value": "999999999.999999"
+                                    }
+                                }
+                            ]
+                        },
+                        "initialReferencePrice": {
+                            "value": "100"
+                        },
+                        "isTradable": true,
+                        "priceType": "PER_UNIT",
+                        "tradedAssetId": 10000001
+                    }
+                ]
+            },
+            "maturityDate": {
+                "value": "2019-10-23T12:09:07.826Z"
+            },
+            "smallestDenomination": {
+                "value": "1"
+            },
+            "productType": "Warrant",
+            "underlyings": [{
+                    "isin": "ZZUNKNOWN006"
+                }
+            ]
+        },
+      {
+            "asset": {
+                "isin": "AA0481362322",
+                "quantityStep": 2,
+                "issuer": {
+                    "bic": "CREAAA80DX1",
+                    "bpId": "AAAA01",
+                    "legalEntity": {
+                        "id": "f9db97b3-f1d4-4ee2-95a6-eb7add26fea8",
+                        "legalEntityId": "101",
+                        "shortName": "CSCH",
+                        "fullName": "Credit Suisse (Schweiz) AG"
+                    }
+                },
+                "tradable": [{
+                        "tradingCurrency": {
+                            "code": "GBP",
+                            "precision": 2
+                        },
+                        "firstTradingDate": {
+                            "value": "2019-01-15T00:00:00.000Z"
+                        },
+                        "lastTradingDate": {
+                            "value": "2025-03-20T23:59:59.000Z"
+                        },
+                        "tradingSegment": {
+                            "id": "CC1",
+                            "maxOrderValue": {
+                                "value": "10000000"
+                            }
+                        },
+                        "priceStepGroup": {
+                            "code": null,
+                            "groupId": "S2",
+                            "priceStepList": [{
+                                    "priceFrom": {
+                                        "value": "0.01"
+                                    },
+                                    "priceTo": {
+                                        "value": "0.0"
+                                    },
+                                    "tickSize": {
+                                        "value": "999999999.999999"
+                                    }
+                                }
+                            ]
+                        },
+                        "initialReferencePrice": {
+                            "value": "100"
+                        },
+                        "isTradable": true,
+                        "priceType": "PER_UNIT",
+                        "tradedAssetId": 10000002
+                    }
+                ]
+            },
+            "maturityDate": {
+                "value": "2019-10-23T12:09:07.826Z"
+            },
+            "smallestDenomination": {
+                "value": "1"
+            },
+            "productType": "Warrant",
+            "underlyings": [{
+                    "isin": "ZZUNKNOWN006"
+                }
+            ]
+        }, {
+            "asset": {
+                "isin": "BB0481377722",
+                "quantityStep": 2,
+                "issuer": {
+                    "bic": "SDAAAAAHDX1",
+                    "bpId": "7777777",
+                    "legalEntity": {
+                        "id": "46f94ee9-6a96-41da-8955-1809c4a44eb5",
+                        "legalEntityId": "0",
+                        "shortName": "NYSE",
+                        "fullName": "New York Stock Exchange"
+                    }
+                },
+                "tradable": [{
+                        "tradingCurrency": {
+                            "code": "USD",
+                            "precision": 2
+                        },
+                        "firstTradingDate": {
+                            "value": "2019-01-15T00:00:00.000Z"
+                        },
+                        "lastTradingDate": {
+                            "value": "2025-03-20T23:59:59.000Z"
+                        },
+                        "tradingSegment": {
+                            "id": "AA1",
+                            "maxOrderValue": {
+                                "value": "10000000"
+                            }
+                        },
+                        "priceStepGroup": {
+                            "code": null,
+                            "groupId": "S1",
+                            "priceStepList": [{
+                                    "priceFrom": {
+                                        "value": "0.001"
+                                    },
+                                    "priceTo": {
+                                        "value": "0.0"
+                                    },
+                                    "tickSize": {
+                                        "value": "999999999.999999"
+                                    }
+                                }
+                            ]
+                        },
+                        "initialReferencePrice": {
+                            "value": "100"
+                        },
+                        "isTradable": true,
+                        "priceType": "PER_UNIT",
+                        "tradedAssetId": 10000003
+                    }
+                ]
+            },
+            "maturityDate": {
+                "value": "2019-10-23T12:09:07.826Z"
+            },
+            "smallestDenomination": {
+                "value": "1"
+            },
+            "productType": "Warrant",
+            "underlyings": [{
+                    "isin": "ZZUNKNOWN006"
+                }
+            ]
+        }, {
+            "asset": {
+                "isin": "CCCC81362369",
+                "quantityStep": 2,
+                "issuer": {
+                    "bic": "SDAAAAZHDX1",
+                    "bpId": "7777777",
+                    "legalEntity": {
+                        "id": "46f94ee9-6a96-41da-8955-1809c4a44eb5",
+                        "legalEntityId": "0",
+                        "shortName": "LSE",
+                        "fullName": "London Stock Exchange"
+                    }
+                },
+                "tradable": [{
+                        "tradingCurrency": {
+                            "code": "GBP",
+                            "precision": 2
+                        },
+                        "firstTradingDate": {
+                            "value": "2019-01-15T00:00:00.000Z"
+                        },
+                        "lastTradingDate": {
+                            "value": "2025-03-20T23:59:59.000Z"
+                        },
+                        "tradingSegment": {
+                            "id": "DX1",
+                            "maxOrderValue": {
+                                "value": "10000000"
+                            }
+                        },
+                        "priceStepGroup": {
+                            "code": null,
+                            "groupId": "S2",
+                            "priceStepList": [{
+                                    "priceFrom": {
+                                        "value": "0.01"
+                                    },
+                                    "priceTo": {
+                                        "value": "0.0"
+                                    },
+                                    "tickSize": {
+                                        "value": "999999999.999999"
+                                    }
+                                }
+                            ]
+                        },
+                        "initialReferencePrice": {
+                            "value": "100"
+                        },
+                        "isTradable": true,
+                        "priceType": "PER_UNIT",
+                        "tradedAssetId": 10000004
+                    }
+                ]
+            },
+            "maturityDate": {
+                "value": "2019-10-23T12:09:07.826Z"
+            },
+            "smallestDenomination": {
+                "value": "1"
+            },
+            "productType": "Warrant",
+            "underlyings": [{
+                    "isin": "ZZUNKNOWN006"
+                }
+            ]
+        }, {
+            "asset": {
+                "isin": "CCCC81362521",
+                "quantityStep": 2,
+                "issuer": {
+                    "bic": "SDAAAAZHDX1",
+                    "bpId": "7777777",
+                    "legalEntity": {
+                        "id": "46f94ee9-6a96-41da-8955-1809c4a44eb5",
+                        "legalEntityId": "0",
+                        "shortName": "LSE",
+                        "fullName": "London Stock Exchange"
+                    }
+                },
+                "tradable": [{
+                        "tradingCurrency": {
+                            "code": "GBP",
+                            "precision": 2
+                        },
+                        "firstTradingDate": {
+                            "value": "2019-01-15T00:00:00.000Z"
+                        },
+                        "lastTradingDate": {
+                            "value": "2025-03-20T23:59:59.000Z"
+                        },
+                        "tradingSegment": {
+                            "id": "DX1",
+                            "maxOrderValue": {
+                                "value": "10000000"
+                            }
+                        },
+                        "priceStepGroup": {
+                            "code": null,
+                            "groupId": "S1",
+                            "priceStepList": [{
+                                    "priceFrom": {
+                                        "value": "0.001"
+                                    },
+                                    "priceTo": {
+                                        "value": "0.0"
+                                    },
+                                    "tickSize": {
+                                        "value": "999999999.999999"
+                                    }
+                                }
+                            ]
+                        },
+                        "initialReferencePrice": {
+                            "value": "100"
+                        },
+                        "isTradable": true,
+                        "priceType": "PER_UNIT",
+                        "tradedAssetId": 10000005
+                    }
+                ]
+            },
+            "maturityDate": {
+                "value": "2019-10-23T12:09:07.826Z"
+            },
+            "smallestDenomination": {
+                "value": "1"
+            },
+            "productType": "Warrant",
+            "underlyings": [{
+                    "isin": "ZZUNKNOWN006"
+                }
+            ]
+        }, {
+            "asset": {
+                "isin": "DDDD81362306",
+                "quantityStep": 2,
+                "issuer": {
+                    "bic": "SDXAAADX1",
+                    "bpId": "7777777",
+                    "legalEntity": {
+                        "id": "46f94ee9-6a96-41da-8955-1809c4a44eb5",
+                        "legalEntityId": "0",
+                        "shortName": "SIX",
+                        "fullName": "SIX"
+                    }
+                },
+                "tradable": [{
+                        "tradingCurrency": {
+                            "code": "CHF",
+                            "precision": 2
+                        },
+                        "firstTradingDate": {
+                            "value": "2019-01-15T00:00:00.000Z"
+                        },
+                        "lastTradingDate": {
+                            "value": "2025-03-20T23:59:59.000Z"
+                        },
+                        "tradingSegment": {
+                            "id": "DX1",
+                            "maxOrderValue": {
+                                "value": "10000000"
+                            }
+                        },
+                        "priceStepGroup": {
+                            "code": null,
+                            "groupId": "S2",
+                            "priceStepList": [{
+                                    "priceFrom": {
+                                        "value": "0.01"
+                                    },
+                                    "priceTo": {
+                                        "value": "0.0"
+                                    },
+                                    "tickSize": {
+                                        "value": "999999999.999999"
+                                    }
+                                }
+                            ]
+                        },
+                        "initialReferencePrice": {
+                            "value": "100"
+                        },
+                        "isTradable": true,
+                        "priceType": "PER_UNIT",
+                        "tradedAssetId": 10000006
+                    }
+                ]
+            },
+            "maturityDate": {
+                "value": "2019-10-23T12:09:07.826Z"
+            },
+            "smallestDenomination": {
+                "value": "1"
+            },
+            "productType": "Warrant",
+            "underlyings": [{
+                    "isin": "ZZUNKNOWN006"
+                }
+            ]
+        }, {
+            "asset": {
+                "isin": "DDDD81362215",
+                "quantityStep": 2,
+                "issuer": {
+                    "bic": "SDAAAAAHDX1",
+                    "bpId": "7777777",
+                    "legalEntity": {
+                        "id": "46f94ee9-6a96-41da-8955-1809c4a44eb5",
+                        "legalEntityId": "0",
+                        "shortName": "SIX",
+                        "fullName": "SIX"
+                    }
+                },
+                "tradable": [{
+                        "tradingCurrency": {
+                            "code": "CHF",
+                            "precision": 2
+                        },
+                        "firstTradingDate": {
+                            "value": "2019-01-15T00:00:00.000Z"
+                        },
+                        "lastTradingDate": {
+                            "value": "2025-03-20T23:59:59.000Z"
+                        },
+                        "tradingSegment": {
+                            "id": "DX1",
+                            "maxOrderValue": {
+                                "value": "10000000"
+                            }
+                        },
+                        "priceStepGroup": {
+                            "code": null,
+                            "groupId": "S1",
+                            "priceStepList": [{
+                                    "priceFrom": {
+                                        "value": "0.001"
+                                    },
+                                    "priceTo": {
+                                        "value": "0.0"
+                                    },
+                                    "tickSize": {
+                                        "value": "999999999.999999"
+                                    }
+                                }
+                            ]
+                        },
+                        "initialReferencePrice": {
+                            "value": "100"
+                        },
+                        "isTradable": true,
+                        "priceType": "PER_UNIT",
+                        "tradedAssetId": 10000007
+                    }
+                ]
+            },
+            "maturityDate": {
+                "value": "2019-10-23T12:09:07.826Z"
+            },
+            "smallestDenomination": {
+                "value": "1"
+            },
+            "productType": "Warrant",
+            "underlyings": [{
+                    "isin": "ZZUNKNOWN006"
+                }
+            ]
+        }, {
+            "asset": {
+                "isin": "TTTT1356340",
+                "quantityStep": 2,
+                "issuer": {
+                    "bic": "SX1",
+                    "bpId": "7777777",
+                    "legalEntity": {
+                        "id": "46f94ee9-6a96-41da-8955-1809c4a44eb5",
+                        "legalEntityId": "0",
+                        "shortName": "NYSE",
+                        "fullName": "NYSE"
+                    }
+                },
+                "tradable": [{
+                        "tradingCurrency": {
+                            "code": "USD",
+                            "precision": 2
+                        },
+                        "firstTradingDate": {
+                            "value": "2019-01-15T00:00:00.000Z"
+                        },
+                        "lastTradingDate": {
+                            "value": "2025-03-20T23:59:59.000Z"
+                        },
+                        "tradingSegment": {
+                            "id": "DX1",
+                            "maxOrderValue": {
+                                "value": "10000000"
+                            }
+                        },
+                        "priceStepGroup": {
+                            "code": null,
+                            "groupId": "S2",
+                            "priceStepList": [{
+                                    "priceFrom": {
+                                        "value": "0.01"
+                                    },
+                                    "priceTo": {
+                                        "value": "0.0"
+                                    },
+                                    "tickSize": {
+                                        "value": "999999999.999999"
+                                    }
+                                }
+                            ]
+                        },
+                        "initialReferencePrice": {
+                            "value": "100"
+                        },
+                        "isTradable": true,
+                        "priceType": "PER_UNIT",
+                        "tradedAssetId": 10000008
+                    }
+                ]
+            },
+            "maturityDate": {
+                "value": "2019-10-23T12:09:07.826Z"
+            },
+            "smallestDenomination": {
+                "value": "1"
+            },
+            "productType": "Warrant",
+            "underlyings": [{
+                    "isin": "ZZUNKNOWN006"
+                }
+            ]
+        }, {
+            "asset": {
+                "isin": "GB0481372835",
+                "quantityStep": 2,
+                "issuer": {
+                    "bic": "SDGBX8",
+                    "bpId": "SDXAA01",
+                    "legalEntity": {
+                        "id": "7afb40d0-78b7-4e04-8d84-d31de382c08d",
+                        "legalEntityId": "1",
+                        "shortName": "LSE",
+                        "fullName": "London Stock Exchange"
+                    }
+                },
+                "tradable": [{
+                        "tradingCurrency": {
+                            "code": "GBP",
+                            "precision": 2
+                        },
+                        "firstTradingDate": {
+                            "value": "2019-01-15T00:00:00.000Z"
+                        },
+                        "lastTradingDate": {
+                            "value": "2025-03-20T23:59:59.000Z"
+                        },
+                        "tradingSegment": {
+                            "id": "DX8",
+                            "maxOrderValue": {
+                                "value": "10000000"
+                            }
+                        },
+                        "priceStepGroup": {
+                            "code": null,
+                            "groupId": "S1",
+                            "priceStepList": [{
+                                    "priceFrom": {
+                                        "value": "0.001"
+                                    },
+                                    "priceTo": {
+                                        "value": "0.0"
+                                    },
+                                    "tickSize": {
+                                        "value": "999999999.999999"
+                                    }
+                                }
+                            ]
+                        },
+                        "initialReferencePrice": {
+                            "value": "100"
+                        },
+                        "isTradable": true,
+                        "priceType": "PER_UNIT",
+                        "tradedAssetId": 10000009
+                    }
+                ]
+            },
+            "maturityDate": {
+                "value": "2019-10-23T12:09:07.826Z"
+            },
+            "smallestDenomination": {
+                "value": "1"
+            },
+            "productType": "Warrant",
+            "underlyings": [{
+                    "isin": "ZZUNKNOWN006"
+                }
+            ]
+        }, {
+            "asset": {
+                "isin": "HHD481356308",
+                "quantityStep": 2,
+                "issuer": {
+                    "bic": "SDAAAAZHDX8",
+                    "bpId": "SBN01",
+                    "legalEntity": {
+                        "id": "7afb40d0-78b7-4e04-8d84-d31de382c08d",
+                        "legalEntityId": "1",
+                        "shortName": "LSE",
+                        "fullName": "London Stock Exchange"
+                    }
+                },
+                "tradable": [{
+                        "tradingCurrency": {
+                            "code": "GBP",
+                            "precision": 2
+                        },
+                        "firstTradingDate": {
+                            "value": "2019-01-15T00:00:00.000Z"
+                        },
+                        "lastTradingDate": {
+                            "value": "2025-03-20T23:59:59.000Z"
+                        },
+                        "tradingSegment": {
+                            "id": "DX8",
+                            "maxOrderValue": {
+                                "value": "10000000"
+                            }
+                        },
+                        "priceStepGroup": {
+                            "code": null,
+                            "groupId": "S2",
+                            "priceStepList": [{
+                                    "priceFrom": {
+                                        "value": "0.01"
+                                    },
+                                    "priceTo": {
+                                        "value": "0.0"
+                                    },
+                                    "tickSize": {
+                                        "value": "999999999.999999"
+                                    }
+                                }
+                            ]
+                        },
+                        "initialReferencePrice": {
+                            "value": "100"
+                        },
+                        "isTradable": true,
+                        "priceType": "PER_UNIT",
+                        "tradedAssetId": 10000010
+                    }
+                ]
+            },
+            "maturityDate": {
+                "value": "2019-10-23T12:09:07.826Z"
+            },
+            "smallestDenomination": {
+                "value": "1"
+            },
+            "productType": "Warrant",
+            "underlyings": [{
+                    "isin": "ZZUNKNOWN006"
+                }
+            ]
+        }, {
+            "asset": {
+                "isin": "TTT481356266",
+                "quantityStep": 2,
+                "issuer": {
+                    "bic": "SDBBBBHDX9",
+                    "bpId": "SXST01",
+                    "legalEntity": {
+                        "id": "e7d283a0-4681-455f-b200-da3d233456ef",
+                        "legalEntityId": "2",
+                        "shortName": "LSE",
+                        "fullName": "London Exchange"
+                    }
+                },
+                "tradable": [{
+                        "tradingCurrency": {
+                            "code": "GBP",
+                            "precision": 2
+                        },
+                        "firstTradingDate": {
+                            "value": "2019-01-15T00:00:00.000Z"
+                        },
+                        "lastTradingDate": {
+                            "value": "2019-09-30T23:59:59.000Z"
+                        },
+                        "tradingSegment": {
+                            "id": "DX9",
+                            "maxOrderValue": {
+                                "value": "10000000"
+                            }
+                        },
+                        "priceStepGroup": {
+                            "code": null,
+                            "groupId": "S1",
+                            "priceStepList": [{
+                                    "priceFrom": {
+                                        "value": "0.001"
+                                    },
+                                    "priceTo": {
+                                        "value": "0.0"
+                                    },
+                                    "tickSize": {
+                                        "value": "999999999.999999"
+                                    }
+                                }
+                            ]
+                        },
+                        "initialReferencePrice": {
+                            "value": "100"
+                        },
+                        "isTradable": true,
+                        "priceType": "PER_UNIT",
+                        "tradedAssetId": 10000011
+                    }
+                ]
+            },
+            "maturityDate": {
+                "value": "2019-10-23T12:09:07.826Z"
+            },
+            "smallestDenomination": {
+                "value": "1"
+            },
+            "productType": "Warrant",
+            "underlyings": [{
+                    "isin": "ZZUNKNOWN006"
+                }
+            ]
+        }, {
+            "asset": {
+                "isin": "YYY481356274",
+                "quantityStep": 2,
+                "issuer": {
+                    "bic": "SDHHHHZHDX9",
+                    "bpId": "SDAAA01",
+                    "legalEntity": {
+                        "id": "e7d283a0-4681-455f-b200-da3d233456ef",
+                        "legalEntityId": "2",
+                        "shortName": "NASDAQ",
+                        "fullName": "Nasdaq"
+                    }
+                },
+                "tradable": [{
+                        "tradingCurrency": {
+                            "code": "USD",
+                            "precision": 2
+                        },
+                        "firstTradingDate": {
+                            "value": "2019-01-15T00:00:00.000Z"
+                        },
+                        "lastTradingDate": {
+                            "value": "2025-03-20T23:59:59.000Z"
+                        },
+                        "tradingSegment": {
+                            "id": "DX9",
+                            "maxOrderValue": {
+                                "value": "10000000"
+                            }
+                        },
+                        "priceStepGroup": {
+                            "code": null,
+                            "groupId": "S2",
+                            "priceStepList": [{
+                                    "priceFrom": {
+                                        "value": "0.01"
+                                    },
+                                    "priceTo": {
+                                        "value": "0.0"
+                                    },
+                                    "tickSize": {
+                                        "value": "999999999.999999"
+                                    }
+                                }
+                            ]
+                        },
+                        "initialReferencePrice": {
+                            "value": "100"
+                        },
+                        "isTradable": true,
+                        "priceType": "PER_UNIT",
+                        "tradedAssetId": 10000012
+                    }
+                ]
+            },
+            "maturityDate": {
+                "value": "2019-10-23T12:09:07.826Z"
+            },
+            "smallestDenomination": {
+                "value": "1"
+            },
+            "productType": "Warrant",
+            "underlyings": [{
+                    "isin": "ZZUNKNOWN006"
+                }
+            ]
+        }, {
+            "asset": {
+                "isin": "CAAA81363333",
+                "quantityStep": 2,
+                "issuer": {
+                    "bic": "CREBBBBBX1",
+                    "bpId": "CSCH01",
+                    "legalEntity": {
+                        "id": "f9db97b3-f1d4-4ee2-95a6-eb7add26fea8",
+                        "legalEntityId": "101",
+                        "shortName": "CSCH",
+                        "fullName": "Credit Suisse (Schweiz) AG"
+                    }
+                },
+                "tradable": [{
+                        "tradingCurrency": {
+                            "code": "CHF",
+                            "precision": 2
+                        },
+                        "firstTradingDate": {
+                            "value": "2019-01-15T00:00:00.000Z"
+                        },
+                        "lastTradingDate": {
+                            "value": "2025-03-20T23:59:59.000Z"
+                        },
+                        "tradingSegment": {
+                            "id": "DX1",
+                            "maxOrderValue": {
+                                "value": "10000000"
+                            }
+                        },
+                        "priceStepGroup": {
+                            "code": null,
+                            "groupId": "S1",
+                            "priceStepList": [{
+                                    "priceFrom": {
+                                        "value": "0.001"
+                                    },
+                                    "priceTo": {
+                                        "value": "0.0"
+                                    },
+                                    "tickSize": {
+                                        "value": "999999999.999999"
+                                    }
+                                }
+                            ]
+                        },
+                        "initialReferencePrice": {
+                            "value": "100"
+                        },
+                        "isTradable": true,
+                        "priceType": "PER_UNIT",
+                        "tradedAssetId": 10000013
+                    }
+                ]
+            },
+            "maturityDate": {
+                "value": "2019-10-23T12:09:07.826Z"
+            },
+            "smallestDenomination": {
+                "value": "1"
+            },
+            "productType": "Warrant",
+            "underlyings": [{
+                    "isin": "ZZSYSTEMTEST"
+                }
+            ]
+        }
+    ]
+}
