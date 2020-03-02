@@ -4,10 +4,16 @@ package com.kotlinsample.converter.model.calendar
 import com.google.gson.annotations.SerializedName
 
 data class CalendarInfo(
-    @SerializedName("date")
+
+    //@SerializedName("date")
     val date: String,
-    @SerializedName("description")
+   // @SerializedName("description")
     val description: String,
-    @SerializedName("marketDay")
+    //@SerializedName("marketDay")
     val marketDay: Boolean
-)
+){
+    constructor() : this("",
+            "",
+            false
+    )
+}
