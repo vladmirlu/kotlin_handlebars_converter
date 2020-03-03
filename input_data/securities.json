@@ -50,7 +50,7 @@
                         "initialReferencePrice": {
                             "value": "100"
                         },
-                        "isTradable": true,
+                        "isTradable": false,
                         "priceType": "PER_UNIT",
                         "tradedAssetId": 10000001
                     }
@@ -185,7 +185,7 @@
                         "initialReferencePrice": {
                             "value": "100"
                         },
-                        "isTradable": true,
+                        "isTradable": false,
                         "priceType": "PER_UNIT",
                         "tradedAssetId": 10000003
                     }
