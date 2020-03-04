@@ -9,7 +9,7 @@ import java.nio.file.Files
 import java.nio.file.Paths
 
 /**
- * Produces and 
+ * Constructs and provides files
  **/
 @Component
 class FileConstructor {
@@ -30,27 +30,27 @@ class FileConstructor {
      * */
     fun writeIntoFile(byteArray: ByteArray, outputFile:File) {
 
-        var fileToWrite = RandomAccessFile(outputFile, "rw")
+        val writingFile = RandomAccessFile(outputFile, "rw")
         try {
-            fileToWrite.seek(outputFile.length())
+            writingFile.seek(outputFile.length())
             var writeLength = byteArray.size
             var offset = 0
 
             while (writeLength > 0) {
                 if (bufferSize >= writeLength) {
-                    fileToWrite.write(byteArray.copyOfRange(offset, offset + writeLength))
+                    writingFile.write(byteArray.copyOfRange(offset, offset + writeLength))
                     writeLength = 0
                 } else {
-                    fileToWrite.write(byteArray.copyOfRange(offset, offset + bufferSize))
+                    writingFile.write(byteArray.copyOfRange(offset, offset + bufferSize))
                     writeLength -= bufferSize
                     offset += bufferSize
                 }
-                fileToWrite.seek(fileToWrite.filePointer)
+                writingFile.seek(writingFile.filePointer)
             }
         } catch (ex: IOException) {
             throw RuntimeException(ex.message)
         } finally {
-            fileToWrite.close()
+            writingFile.close()
         }
     }
 

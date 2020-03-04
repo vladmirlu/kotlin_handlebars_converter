@@ -1,3 +1,2 @@
-{{#if addHeaders}}securityid	isin  pricetype	 istradeable  status{{/if}}
-{{#each}}
+{{#if addHeaders}}securityid	isin  pricetype	 istradeable  status{{/if}}{{#each}}
 {{#with asset}}{{#with tradable}}{{#each}}{{tradedAssetId}},{{/each}}{{/with}}{{isin}},{{#with tradable}}{{#each}}{{priceType}},{{#if isTradable}}Y,{{/if}}{{#unless isTradable}}N,{{/unless}}{{/each}}{{/with}}{{/with}}A{{/each}}

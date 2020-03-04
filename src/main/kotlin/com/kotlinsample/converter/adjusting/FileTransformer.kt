@@ -45,7 +45,7 @@ class FileTransformer {
      * Extract data from given CalendarInfo JSON file and applies Handlebars templates to data
      * */
     @PostConstruct
-    fun parseCalendarInfo() {
+    fun transformCalendarInfo() {
         try {
             val jsonFile = File(inputDataFolder + calendarJson)
             val calendarInfos = jsonMapper.readValue(jsonFile, JsonNode::class.java)
@@ -62,7 +62,7 @@ class FileTransformer {
      * Extract data from given securities JSON file and applies Handlebars templates to data
      * */
     @PostConstruct
-    fun parseSecurities() {
+    fun transformSecurities() {
 
         try {
             val jsonFile = File(inputDataFolder + securitiesJson)
